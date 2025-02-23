@@ -1,0 +1,93 @@
+.single_input {
+    width: 432px;
+    padding: 11px 15px;
+    border-radius: 10px;
+    border: 1px solid #3E1671;
+    background-color: transparent;
+    color: white;
+}
+
+.single_input:focus {
+    outline: none;
+}
+
+.single_form {
+    display: flex;
+    gap: 10px;
+}
+
+.adder_button {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #9E78CF;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adder_button:hover {
+    background-color: #3c2d50;
+}
+
+.task_counter {
+    color: white;
+}
+
+.task_section {
+    margin-top: 59px;
+}
+
+.box {
+    width: 482px;
+    border-radius: 10px;
+    background-color: #15101C;
+    padding: 29px 27px;
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task_name {
+    color: #9E78CF;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.button, .return {
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.done_task {
+    color: #78CFB0;
+    text-decoration: line-through 1px;
+}
+
+.done_counter {
+    color: white;
+}
+
+.done_section {
+    margin-top: 60px;
+}
+
+.return {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+}
