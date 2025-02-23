@@ -49,8 +49,10 @@ function App() {
   function handleRestore(id) {
     const restored = doneTask[id]
 
-    setDoneTask(doneTask.filter((_, i) => i !== id))
+    const updatedDone = doneTask.filter((_, i) => i !== id);
+    localStorage.setItem('done', JSON.stringify(updatedDone));
 
+    setDoneTask(updatedDone)
     dispatch(add(restored))
   }
 
